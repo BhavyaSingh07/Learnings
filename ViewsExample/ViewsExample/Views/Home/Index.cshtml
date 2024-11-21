@@ -1,0 +1,103 @@
+﻿@model List<Person>
+@{
+    //string appTitle = "Asp.net Core app";
+    // Person person = new Person() { Name = "Aman", DateOfBirth = Convert.ToDateTime("2002-07-01"),PersonGender = Gender.Male };
+    // Convert.ToDateTime("2002-07-01")
+}
+
+@{
+    double? GetAge(DateTime? DateofBirth){
+        if(DateofBirth is not null){
+            return Math.Round((DateTime.Today - DateofBirth.Value).TotalDays / 365.25);
+        }
+        else{
+            return null;
+        }
+    }
+
+
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@ViewData["appTitle"]</title>
+    <meta charset="utf-8" />
+    <link href="~/StyleSheet.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="page-content">
+
+        <h1>Persons</h1>
+
+
+        @{
+            //List<Person>? people = (List<Person>?)ViewData["people"];
+        }
+        @* @for(int i = 0; i<2; i++){ *@
+        @*     Person person = people[i]; *@
+        @foreach (Person person in Model)
+        {
+            @* @: Hello *@
+            <div class="box float-left w-50">
+                <h3>@person.Name</h3>
+                <table class="table w-100">
+                    <tbody>
+                        <tr>
+                            <td>Gender</td>
+                            <td>@person.PersonGender</td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                <a href="/person-details/@person.Name">Details</a>
+                </div>
+               
+
+
+                @* <span> , </span> *@
+                @* <span>@person.PersonGender</span> *@
+                @* @if (person.DateOfBirth != null) *@
+                @* { *@
+                @*     <span>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</span> *@
+                @*     <span>@GetAge(person.DateOfBirth) years old</span> *@
+                @* } *@
+            </div>
+
+        }
+        <div>
+            <a href="/person-with-product">Person with product</a>
+        </div>
+
+    </div>
+
+    @* <h2>Hello @person.Name</h2> *@
+    @* @if(person.DateOfBirth.HasValue){ *@
+    @*     double age = Math.Round((DateTime.Today - person.DateOfBirth).Value.TotalDays/365.25); //365.25m); *@
+    @*     <h3>@age years old</h3> *@
+    @* } *@
+    @* else{ *@
+    @*     <h3>Date of Birth is unknown</h3> *@
+    @* } *@
+
+    @* @switch(person.PersonGender){ *@
+    @*     case Gender.Male: *@
+    @*         <p>November 19 is internationals men's day</p> *@
+    @*         ; *@
+    @*         break; *@
+    @*     case Gender.Female: *@
+    @*         <p>March 8 is international women's day'</p> *@
+    @*         ; *@
+    @*         break; *@
+    @*     case Gender.Other: *@
+    @*         <p>March 31 is</p> *@
+    @*         ; *@
+    @*         break; *@
+    @* } *@
+
+    </body>
+</html>
