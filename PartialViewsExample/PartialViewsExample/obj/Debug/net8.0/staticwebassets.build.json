@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "QC8yA7g6T3suYt5AmF0IrWC1mm/+KrZJJbmhpCF+Bao=",
+  "Source": "PartialViewsExample",
+  "BasePath": "_content/PartialViewsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViewsExample\\wwwroot",
+      "Source": "PartialViewsExample",
+      "ContentRoot": "C:\\aspnetcore\\PartialViewsExample\\PartialViewsExample\\wwwroot\\",
+      "BasePath": "_content/PartialViewsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\aspnetcore\\PartialViewsExample\\PartialViewsExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "PartialViewsExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\aspnetcore\\PartialViewsExample\\PartialViewsExample\\wwwroot\\",
+      "BasePath": "_content/PartialViewsExample",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ohamsm5l2u",
+      "Integrity": "ZN0nyUoFJvWblP6PmVOR90z8T1dmZm1PB69b8cyOLqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "C:\\aspnetcore\\PartialViewsExample\\PartialViewsExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN0nyUoFJvWblP6PmVOR90z8T1dmZm1PB69b8cyOLqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 11:20:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN0nyUoFJvWblP6PmVOR90z8T1dmZm1PB69b8cyOLqg="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.ohamsm5l2u.css",
+      "AssetFile": "C:\\aspnetcore\\PartialViewsExample\\PartialViewsExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN0nyUoFJvWblP6PmVOR90z8T1dmZm1PB69b8cyOLqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 11:20:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ohamsm5l2u"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN0nyUoFJvWblP6PmVOR90z8T1dmZm1PB69b8cyOLqg="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ControllersExample/sample.954d5nolbc.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"954d5nolbc"},{"Name":"integrity","Value":"sha256-PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ="},{"Name":"label","Value":"_content/ControllersExample/sample.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13264"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 08:02:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ControllersExample/sample.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13264"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 08:02:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

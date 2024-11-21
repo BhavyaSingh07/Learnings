@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\sample.pdf",
+      "PackagePath": "staticwebassets\\sample.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControllersExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControllersExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ControllersExample.props",
+      "PackagePath": "build\\ControllersExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ControllersExample.props",
+      "PackagePath": "buildMultiTargeting\\ControllersExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ControllersExample.props",
+      "PackagePath": "buildTransitive\\ControllersExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

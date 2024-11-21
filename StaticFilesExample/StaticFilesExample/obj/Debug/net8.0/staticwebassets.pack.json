@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\aspnetcore\\StaticFilesExample\\StaticFilesExample\\wwwroot\\download.jpg",
+      "PackagePath": "staticwebassets\\download.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StaticFilesExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StaticFilesExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StaticFilesExample.props",
+      "PackagePath": "build\\StaticFilesExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StaticFilesExample.props",
+      "PackagePath": "buildMultiTargeting\\StaticFilesExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StaticFilesExample.props",
+      "PackagePath": "buildTransitive\\StaticFilesExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

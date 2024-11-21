@@ -1,0 +1,1 @@
+C:\aspnetcore\StaticFilesExample\StaticFilesExample\wwwroot\download.jpg

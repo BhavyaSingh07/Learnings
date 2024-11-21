@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "z6bX6ze5oMD5dSK8Vp+CutYF+NQerp0OvcBg7PFIO/U=",
+  "Source": "ControllersExample",
+  "BasePath": "_content/ControllersExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllersExample\\wwwroot",
+      "Source": "ControllersExample",
+      "ContentRoot": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\",
+      "BasePath": "_content/ControllersExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\sample.pdf",
+      "SourceId": "ControllersExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\",
+      "BasePath": "_content/ControllersExample",
+      "RelativePath": "sample#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "954d5nolbc",
+      "Integrity": "PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "sample.954d5nolbc.pdf",
+      "AssetFile": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 08:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "954d5nolbc"
+        },
+        {
+          "Name": "label",
+          "Value": "sample.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ="
+        }
+      ]
+    },
+    {
+      "Route": "sample.pdf",
+      "AssetFile": "C:\\aspnetcore\\ControllersExample\\ControllersExample\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 08:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfedNKu8qZMI55y5RGHBiTWCYE1oMppB/UvsGIXmrbQ="
+        }
+      ]
+    }
+  ]
+}

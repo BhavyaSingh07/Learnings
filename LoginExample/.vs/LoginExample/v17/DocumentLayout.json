@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\aspnetcore\\LoginExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99909ECB-8642-4266-A6FE-E973A727CF68}|LoginExample\\LoginExample.csproj|c:\\aspnetcore\\loginexample\\loginexample\\custommiddleware\\loginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99909ECB-8642-4266-A6FE-E973A727CF68}|LoginExample\\LoginExample.csproj|solutionrelative:loginexample\\custommiddleware\\loginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99909ECB-8642-4266-A6FE-E973A727CF68}|LoginExample\\LoginExample.csproj|c:\\aspnetcore\\loginexample\\loginexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99909ECB-8642-4266-A6FE-E973A727CF68}|LoginExample\\LoginExample.csproj|solutionrelative:loginexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginMiddleware.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\LoginExample\\LoginExample\\CustomMiddleware\\LoginMiddleware.cs",
+              "RelativeDocumentMoniker": "LoginExample\\CustomMiddleware\\LoginMiddleware.cs",
+              "ToolTip": "C:\\aspnetcore\\LoginExample\\LoginExample\\CustomMiddleware\\LoginMiddleware.cs",
+              "RelativeToolTip": "LoginExample\\CustomMiddleware\\LoginMiddleware.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:22:45.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\LoginExample\\LoginExample\\Program.cs",
+              "RelativeDocumentMoniker": "LoginExample\\Program.cs",
+              "ToolTip": "C:\\aspnetcore\\LoginExample\\LoginExample\\Program.cs",
+              "RelativeToolTip": "LoginExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:20:55.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

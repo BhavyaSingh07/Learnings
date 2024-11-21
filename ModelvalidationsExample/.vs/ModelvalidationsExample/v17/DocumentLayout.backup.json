@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\aspnetcore\\ModelvalidationsExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\customvalidators\\minimumyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\customvalidators\\minimumyearvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\custommodelbinders\\personbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\custommodelbinders\\personbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\customvalidators\\daterangevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\customvalidators\\daterangevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|c:\\aspnetcore\\modelvalidationsexample\\modelvalidationsexample\\custommodelbinders\\personmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06133280-B8B1-4534-BF5D-252C9BA5B6D8}|ModelvalidationsExample\\ModelvalidationsExample.csproj|solutionrelative:modelvalidationsexample\\custommodelbinders\\personmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonModelBinder.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\CustomModelBinders\\PersonModelBinder.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:26:56.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MinimumYearValidatorAttribute.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomValidators\\MinimumYearValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\CustomValidators\\MinimumYearValidatorAttribute.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomValidators\\MinimumYearValidatorAttribute.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\CustomValidators\\MinimumYearValidatorAttribute.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:03:24.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Program.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\Program.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Program.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:32:00.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DateRangeValidatorAttribute.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomValidators\\DateRangeValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\CustomValidators\\DateRangeValidatorAttribute.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomValidators\\DateRangeValidatorAttribute.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\CustomValidators\\DateRangeValidatorAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:22:56.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:35:35.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\Models\\Person.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\Models\\Person.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:33:33.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonBinderProvider.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "RelativeDocumentMoniker": "ModelvalidationsExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "ToolTip": "C:\\aspnetcore\\ModelvalidationsExample\\ModelvalidationsExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "RelativeToolTip": "ModelvalidationsExample\\CustomModelBinders\\PersonBinderProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:46:16.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
