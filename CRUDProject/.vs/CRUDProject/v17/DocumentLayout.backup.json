@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\aspnetcore\\CRUDProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\views\\persons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\persons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\views\\persons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\persons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6B2225-2AAB-4052-9D6B-B23632D3CC14}|Services\\Services.csproj|c:\\aspnetcore\\crudproject\\services\\personsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6B2225-2AAB-4052-9D6B-B23632D3CC14}|Services\\Services.csproj|solutionrelative:services\\personsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\dto\\personaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\personaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\views\\shared\\_gridcolumnheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\shared\\_gridcolumnheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\dto\\personresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\personresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F845A6-E796-4203-9DD4-8B7AC4FC1F16}|Entities\\Entities.csproj|c:\\aspnetcore\\crudproject\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F845A6-E796-4203-9DD4-8B7AC4FC1F16}|Entities\\Entities.csproj|solutionrelative:entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|c:\\aspnetcore\\crudproject\\crudtests\\personsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\personsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6B2225-2AAB-4052-9D6B-B23632D3CC14}|Services\\Services.csproj|c:\\aspnetcore\\crudproject\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6B2225-2AAB-4052-9D6B-B23632D3CC14}|Services\\Services.csproj|solutionrelative:services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|c:\\aspnetcore\\crudproject\\crudproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D87C246A-1CB9-4358-A7FF-FE0C9003E15E}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\dto\\personupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\personupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\enums\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\enums\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F845A6-E796-4203-9DD4-8B7AC4FC1F16}|Entities\\Entities.csproj|c:\\aspnetcore\\crudproject\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F845A6-E796-4203-9DD4-8B7AC4FC1F16}|Entities\\Entities.csproj|solutionrelative:entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\dto\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|c:\\aspnetcore\\crudproject\\servicecontracts\\dto\\countryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDE7ADF-C903-41C6-A345-182FEAE2C46A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\countryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|c:\\aspnetcore\\crudproject\\crudtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|c:\\aspnetcore\\crudproject\\crudtests\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49039DA-625A-4CCC-9CC1-7B50433C77B1}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonAddRequest.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonAddRequest.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\PersonAddRequest.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonAddRequest.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\PersonAddRequest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:26:43.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Persons\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\Persons\\Create.cshtml",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Persons\\Create.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\Persons\\Create.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T04:15:26.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_GridColumnHeader.cshtml",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T12:09:14.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Persons\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\Persons\\Index.cshtml",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\Persons\\Index.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\Persons\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:47:26.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonsController.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Controllers\\PersonsController.cs",
+              "RelativeDocumentMoniker": "CRUDProject\\Controllers\\PersonsController.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Controllers\\PersonsController.cs",
+              "RelativeToolTip": "CRUDProject\\Controllers\\PersonsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:46:21.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonsService.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\Services\\PersonsService.cs",
+              "RelativeDocumentMoniker": "Services\\PersonsService.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\Services\\PersonsService.cs",
+              "RelativeToolTip": "Services\\PersonsService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwDMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:17:33.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonResponse.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\PersonResponse.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\PersonResponse.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAApwDIAAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:56:21.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonsServiceTest.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\PersonsServiceTest.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\PersonsServiceTest.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\PersonsServiceTest.cs",
+              "RelativeToolTip": "CRUDTests\\PersonsServiceTest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:12:53.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPersonsService.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\IPersonsService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IPersonsService.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\IPersonsService.cs",
+              "RelativeToolTip": "ServiceContracts\\IPersonsService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:15:23.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "Entities\\Person.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\Entities\\Person.cs",
+              "RelativeToolTip": "Entities\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:11:13.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDProject\\Program.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Program.cs",
+              "RelativeToolTip": "CRUDProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:27:06.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CountriesService.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\Services\\CountriesService.cs",
+              "RelativeDocumentMoniker": "Services\\CountriesService.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\Services\\CountriesService.cs",
+              "RelativeToolTip": "Services\\CountriesService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:49:50.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:44:46.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonUpdateRequest.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonUpdateRequest.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\PersonUpdateRequest.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\PersonUpdateRequest.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\PersonUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:54:20.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenderOptions.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\Enums\\GenderOptions.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\Enums\\GenderOptions.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\Enums\\GenderOptions.cs",
+              "RelativeToolTip": "ServiceContracts\\Enums\\GenderOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:55:59.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CountryResponse.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\CountryResponse.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\CountryResponse.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\CountryResponse.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\CountryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:53:45.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CountryAddRequest.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:50:48.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IcountriesService.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\IcountriesService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IcountriesService.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\ServiceContracts\\IcountriesService.cs",
+              "RelativeToolTip": "ServiceContracts\\IcountriesService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:49:14.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "Entities\\Country.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\Entities\\Country.cs",
+              "RelativeToolTip": "Entities\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:46:54.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyMath.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\MyMath.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\MyMath.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\MyMath.cs",
+              "RelativeToolTip": "CRUDTests\\MyMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:37:41.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\UnitTest1.cs",
+              "ToolTip": "C:\\aspnetcore\\CRUDProject\\CRUDTests\\UnitTest1.cs",
+              "RelativeToolTip": "CRUDTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:30:46.186Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+C:\aspnetcore\CRUDProject\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+C:\aspnetcore\CRUDProject\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+C:\aspnetcore\CRUDProject\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+C:\aspnetcore\CRUDProject\ServiceContracts\bin\Debug\net8.0\Entities.dll
+C:\aspnetcore\CRUDProject\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+C:\aspnetcore\CRUDProject\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll

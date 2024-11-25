@@ -1,0 +1,12 @@
+C:\aspnetcore\CRUDProject\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\aspnetcore\CRUDProject\Entities\bin\Debug\net8.0\Entities.dll
+C:\aspnetcore\CRUDProject\Entities\bin\Debug\net8.0\Entities.pdb
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.dll
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\Entities.pdb
+C:\aspnetcore\CRUDProject\Entities\obj\Debug\net8.0\ref\Entities.dll

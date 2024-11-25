@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\StyleSheet (2).css",
+      "PackagePath": "staticwebassets\\StyleSheet (2).css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRUDProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRUDProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CRUDProject.props",
+      "PackagePath": "build\\CRUDProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CRUDProject.props",
+      "PackagePath": "buildMultiTargeting\\CRUDProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CRUDProject.props",
+      "PackagePath": "buildTransitive\\CRUDProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
