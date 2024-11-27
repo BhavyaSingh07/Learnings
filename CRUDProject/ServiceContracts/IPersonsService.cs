@@ -13,17 +13,19 @@ namespace ServiceContracts
     /// </summary>
     public interface IPersonsService
     {
-        PersonResponse AddPerson(PersonAddRequest? personAddRequest);
-        List<PersonResponse> GetAllPersons();
+        Task<PersonResponse> AddPerson(PersonAddRequest? personAddRequest);
+        Task<List<PersonResponse>> GetAllPersons();
 
-        PersonResponse? GetPersonByPersonID(Guid? personId);
+        Task<PersonResponse?> GetPersonByPersonID(Guid? personId);
 
-        List<PersonResponse> GetFilteredPersons(string searchBy, string? searchString);
+        Task<List<PersonResponse>> GetFilteredPersons(string searchBy, string? searchString);
 
-        List<PersonResponse> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder);
+        Task<List<PersonResponse>> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder);
 
-        PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest);
+        Task<PersonResponse> UpdatePerson(PersonUpdateRequest? personUpdateRequest);
 
-        bool DeletePerson(Guid? personId);
+        Task<bool> DeletePerson(Guid? personId);
+
+        Task<MemoryStream> GetPersonsCSV();
     }
 }
