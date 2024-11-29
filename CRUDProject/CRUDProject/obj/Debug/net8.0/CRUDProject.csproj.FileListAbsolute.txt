@@ -192,3 +192,7 @@ C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\runtimes\win\lib\net8.0\S
 C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Rotativa.AspNetCore.dll
 C:\aspnetcore\CRUDProject\CRUDProject\obj\Debug\net8.0\CRUDProject.MvcApplicationPartsAssemblyInfo.cs
 C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\CsvHelper.dll
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\RepositoryContracts.dll
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\RepositoryContracts.pdb
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Repositories.dll
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Repositories.pdb

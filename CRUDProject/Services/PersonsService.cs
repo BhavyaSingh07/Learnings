@@ -14,19 +14,29 @@ using CsvHelper;
 using System.IO;
 using System.Globalization;
 using CsvHelper.Configuration;
+using RepositoryContracts;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Logging;
 
 namespace Services
 {
     public class PersonsService : IPersonsService
     {
         //private readonly List<Person> _persons;
-        private readonly PersonsDbContext _db;
-        private readonly IcountriesService _countriesService;
-        public PersonsService(PersonsDbContext personsDbContext, IcountriesService countriesService)
+        private readonly IPersonsRepository _personsRepository;
+        private readonly ILogger<PersonsService> _logger;
+        //private readonly IcountriesService _countriesService;
+        public PersonsService(IPersonsRepository personsRepository, ILogger<PersonsService> logger)
         {
             //appl, debug, traces, error logging enums
-            _db = personsDbContext;
-            _countriesService = countriesService;
+            //debug, information, warning, error, critical
+
+            _personsRepository = personsRepository;
+            _logger = logger;
+            //_personsRepository = personsDbContext;
+            //_countriesService = countriesService;
+
+
             //if (initialize)
             //{
             //    _db.Add(new Person() { PersonID = Guid.Parse("8082ED0C-396D-4162-AD1D-29A13F929824"), PersonName = "Aguste", Email = "aleddy0@booking.com", DateOfBirth = DateTime.Parse("1993-01-02"), Gender = "Male", Address = "0858 Novick Terrace", ReceiveNewsLetters = false, CountryId = Guid.Parse("000C76EB-62E9-4465-96D1-2C41FDB64C3B") });
@@ -76,16 +86,21 @@ namespace Services
 
             Person person = personAddRequest.ToPerson();
             person.PersonID = Guid.NewGuid();
-            _db.Persons.Add(person);
-            await _db.SaveChangesAsync();
+            
+            await _personsRepository.AddPerson(person);
+
+            //_personsRepository.Persons.Add(person);
+            // await _personsRepository.SaveChangesAsync();
             //_db.sp_InsertPerson(person);
-           // return ConvertPersonToPersonResponse(person);
+            // return ConvertPersonToPersonResponse(person);
             return person.ToPersonResponse();
         }
 
         public async Task<List<PersonResponse>> GetAllPersons()
         {
-            var persons = await _db.Persons.Include("Country").ToListAsync();
+            _logger.LogInformation("Get all Persons method");
+            //var persons = await _personsRepository.Persons.Include("Country").ToListAsync();
+            var persons = await _personsRepository.GetAllPersons();
             //return _db.Persons.ToList().Select(temp => temp.ToPersonResponse()).ToList();
             return persons.Select(temp => temp.ToPersonResponse()).ToList();
             // return _db.sp_GetAllPersons().ToList().Select(temp => ConvertPersonToPersonResponse(temp)).ToList();
@@ -98,7 +113,8 @@ namespace Services
             {
                 return null;
             }
-            Person? person = await _db.Persons.Include("Country").FirstOrDefaultAsync(temp => temp.PersonID == personId); 
+            // Person? person = await _personsRepository.Persons.Include("Country").FirstOrDefaultAsync(temp => temp.PersonID == personId); 
+            Person? person = await _personsRepository.GetPersonByPersonID(personId.Value);
             if(person == null)
             {
                 return null;
@@ -110,6 +126,7 @@ namespace Services
 
         public async Task<List<PersonResponse>> GetFilteredPersons(string searchBy, string? searchString)
         {
+            _logger.LogInformation("Reached getfilteredpersons method");
             List<PersonResponse> allPersons = await GetAllPersons();
             List<PersonResponse> matchingPersons = allPersons;
 
@@ -161,6 +178,7 @@ namespace Services
 
         public async Task<List<PersonResponse>> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder)
         {
+            _logger.LogInformation("Reached Get_Sorted_Persons method");
             if (string.IsNullOrEmpty(sortBy))
                 return allPersons;
 
@@ -213,7 +231,8 @@ namespace Services
             ValidationHelper.ModelValidation(personUpdateRequest);
 
             //get matching person object to update
-            Person? matchingPerson = await _db.Persons.FirstOrDefaultAsync(temp => temp.PersonID == personUpdateRequest.PersonID);
+           // Person? matchingPerson = await _personsRepository.Persons.FirstOrDefaultAsync(temp => temp.PersonID == personUpdateRequest.PersonID);
+            Person? matchingPerson = await _personsRepository.GetPersonByPersonID(personUpdateRequest.PersonID);
             if (matchingPerson == null)
             {
                 throw new ArgumentException("Given person id doesn't exist");
@@ -228,7 +247,8 @@ namespace Services
             matchingPerson.Address = personUpdateRequest.Address;
             matchingPerson.ReceiveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
 
-            await _db.SaveChangesAsync();
+            //await _personsRepository.SaveChangesAsync();
+            await _personsRepository.UpdatePerson(matchingPerson);
 
            // return ConvertPersonToPersonResponse(matchingPerson);
             return matchingPerson.ToPersonResponse();
@@ -240,12 +260,14 @@ namespace Services
                 throw new ArgumentNullException(nameof(personID));
             }
 
-            Person? person = await _db.Persons.FirstOrDefaultAsync(temp => temp.PersonID == personID);
+            //Person? person = await _personsRepository.Persons.FirstOrDefaultAsync(temp => temp.PersonID == personID);
+            Person? person = await _personsRepository.GetPersonByPersonID(personID.Value);
             if (person == null)
                 return false;
 
             //_db.Persons.RemoveAll(temp => temp.PersonID == personID);
-            _db.Persons.Remove(_db.Persons.First(temp => temp.PersonID == personID));
+            //_personsRepository.Persons.Remove(_personsRepository.Persons.First(temp => temp.PersonID == personID));
+            await _personsRepository.DeletePersonByPersonID(personID.Value);
 
             return true;
         }
@@ -259,7 +281,8 @@ namespace Services
 
             csvWriter.WriteHeader<PersonResponse>();
             csvWriter.NextRecord();
-            List<PersonResponse> persons = _db.Persons.Include("Country").Select(t => t.ToPersonResponse()).ToList();
+            //List<PersonResponse> persons = _personsRepository.Persons.Include("Country").Select(t => t.ToPersonResponse()).ToList();
+            List<PersonResponse> persons = await GetAllPersons();
             await csvWriter.WriteRecordsAsync(persons);
 
             memoryStream.Position = 0;

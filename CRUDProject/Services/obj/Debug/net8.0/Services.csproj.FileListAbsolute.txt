@@ -16,3 +16,5 @@ C:\aspnetcore\CRUDProject\Services\obj\Debug\net8.0\Services.dll
 C:\aspnetcore\CRUDProject\Services\obj\Debug\net8.0\refint\Services.dll
 C:\aspnetcore\CRUDProject\Services\obj\Debug\net8.0\Services.pdb
 C:\aspnetcore\CRUDProject\Services\obj\Debug\net8.0\ref\Services.dll
+C:\aspnetcore\CRUDProject\Services\bin\Debug\net8.0\RepositoryContracts.dll
+C:\aspnetcore\CRUDProject\Services\bin\Debug\net8.0\RepositoryContracts.pdb

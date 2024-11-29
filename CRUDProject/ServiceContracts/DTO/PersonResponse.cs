@@ -58,7 +58,7 @@ namespace ServiceContracts.DTO
         {
             return new PersonResponse() { PersonID = person.PersonID, PersonName = person.PersonName, Email = person.Email, DateOfBirth = person.DateOfBirth, Address = person.Address, ReceiveNewsLetters = person.ReceiveNewsLetters, CountryId = person.CountryId, Gender = person.Gender, Age = (person.DateOfBirth != null)? Math.Round((DateTime.Today - person.DateOfBirth.Value).TotalDays / 365.25) : null, Country = person.Country?.CountryName};
             }
-
+        
     }
 
 }

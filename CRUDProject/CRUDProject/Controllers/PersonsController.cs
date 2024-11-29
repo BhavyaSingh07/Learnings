@@ -14,17 +14,21 @@ namespace CRUDProject.Controllers
     public class PersonsController : Controller
     {
         private readonly IPersonsService _personsService;
-        private readonly IcountriesService _countriesService;   
-        public PersonsController(IPersonsService personsService, IcountriesService countriesService)
+        private readonly IcountriesService _countriesService;  
+        private readonly ILogger<PersonsController> _logger;
+        public PersonsController(IPersonsService personsService, IcountriesService countriesService, ILogger<PersonsController> logger)
         {
             _personsService = personsService;
             _countriesService = countriesService;
+            _logger = logger;
         }
         //[Route("persons/index")]
         [Route("[action]")]
         [Route("/")]
         public async Task<IActionResult> Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.ASC)
         {
+            _logger.LogInformation("Index action method of controller reached");
+            _logger.LogDebug($"searchBy:{searchBy}, searchString:{searchString}, sortBy:{sortBy}, sortOrder:{sortOrder}");
             ViewBag.SearchFields = new Dictionary<string, string>()
             {
                 {nameof(Person.PersonName), "Person Name" },

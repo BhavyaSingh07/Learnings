@@ -1,6 +1,7 @@
 ﻿using System.Runtime.ConstrainedExecution;
 using Entities;
 using Microsoft.EntityFrameworkCore;
+using RepositoryContracts;
 using ServiceContracts;
 using ServiceContracts.DTO;
 
@@ -9,12 +10,15 @@ namespace Services
     public class CountriesService : IcountriesService
     {
         //private readonly List<Country> _db;
-        private readonly PersonsDbContext _db;
-        public CountriesService(PersonsDbContext personsDbContext)
+        private readonly ICountriesRepository _countriesRepository;
+        public CountriesService(ICountriesRepository countriesRepository)
             //bool initialize = true
         {
             //_db = new List<Country>();
-            _db = personsDbContext;
+            
+            //_countriesRepository = personsDbContext;
+
+            _countriesRepository = countriesRepository;
             //if(initialize)
             //{
             //    _db.AddRange(new List<Country>() {
@@ -46,7 +50,8 @@ namespace Services
             //{
             //    throw new ArgumentNullException("Country name already exists");
             //}
-            if (await _db.Countries.CountAsync(temp => temp.CountryName == countryAddRequest.CountryName) > 0)
+            //if (await _countriesRepository.Countries.CountAsync(temp => temp.CountryName == countryAddRequest.CountryName) > 0)
+            if(await _countriesRepository.GetCountryByCountryName(countryAddRequest.CountryName) != null)
             {
                 throw new ArgumentNullException("Country name already exists");
             }
@@ -54,8 +59,9 @@ namespace Services
             Country country = countryAddRequest.ToCountry();
             country.CountryId = Guid.NewGuid();
 
-            _db.Countries.Add(country);
-            await _db.SaveChangesAsync();
+            //_countriesRepository.Countries.Add(country);
+            //await _countriesRepository.SaveChangesAsync();
+            await _countriesRepository.AddCountry(country); 
 
             return country.ToCountryResponse();
 
@@ -65,7 +71,7 @@ namespace Services
         public async Task<List<CountryResponse>> GetAllCountries()
         {
             //return _db.Select(country => country.ToCountryResponse()).ToList();
-            return await _db.Countries.Select(country => country.ToCountryResponse()).ToListAsync();
+            return (await _countriesRepository.GetAllCountries()).Select(country => country.ToCountryResponse()).ToList();
         }
 
         public async Task<CountryResponse?> GetCountryByCountryID(Guid? countryID)
@@ -74,9 +80,10 @@ namespace Services
             {
                 return null;
             }
-            Country? country_response_from_list = await _db.Countries.FirstOrDefaultAsync(temp => temp.CountryId == countryID);
+            //Country? country_response_from_list = await _countriesRepository.Countries.FirstOrDefaultAsync(temp => temp.CountryId == countryID);
+            Country? country_response_from_list = await _countriesRepository.GetCountryByCountryID(countryID.Value);
 
-            if(country_response_from_list == null) { return null; }
+            if (country_response_from_list == null) { return null; }
             return country_response_from_list.ToCountryResponse();
         }
     }
