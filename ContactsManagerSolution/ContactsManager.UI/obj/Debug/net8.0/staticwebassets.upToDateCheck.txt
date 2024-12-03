@@ -1,0 +1,4 @@
+wwwroot\errorimage.jpg
+wwwroot\favicon.ico
+wwwroot\Rotativa\wkhtmltopdf.exe
+wwwroot\StyleSheet (2).css

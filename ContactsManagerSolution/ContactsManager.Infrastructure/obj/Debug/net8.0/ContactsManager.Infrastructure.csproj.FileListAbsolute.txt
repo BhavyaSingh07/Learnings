@@ -1,0 +1,16 @@
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\bin\Debug\net8.0\ContactsManager.Infrastructure.deps.json
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\bin\Debug\net8.0\ContactsManager.Infrastructure.dll
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\bin\Debug\net8.0\ContactsManager.Infrastructure.pdb
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\bin\Debug\net8.0\ContactsManager.Core.dll
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\bin\Debug\net8.0\ContactsManager.Core.pdb
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.csproj.AssemblyReference.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.AssemblyInfoInputs.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.AssemblyInfo.cs
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.sourcelink.json
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\Contacts.2BC572B3.Up2Date
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.dll
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\refint\ContactsManager.Infrastructure.dll
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ContactsManager.Infrastructure.pdb
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.Infrastructure\obj\Debug\net8.0\ref\ContactsManager.Infrastructure.dll

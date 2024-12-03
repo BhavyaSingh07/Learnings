@@ -1,0 +1,7 @@
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\bin\Debug\net8.0\CoverletSourceRootsMapping_ContactsManager.ServiceTest
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.csproj.AssemblyReference.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.AssemblyInfoInputs.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.AssemblyInfo.cs
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.csproj.CoreCompileInputs.cache
+C:\aspnetcore\ContactsManagerSolution\ContactsManager.ServiceTest\obj\Debug\net8.0\ContactsManager.ServiceTest.sourcelink.json

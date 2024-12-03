@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\aspnetcore\\ContactsManagerSolution\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Id": "C:\\aspnetcore\\ContactsManagerSolution\\ContactsManager.UI\\wwwroot\\StyleSheet (2).css",
+      "PackagePath": "staticwebassets\\StyleSheet (2).css"
+    },
+    {
+      "Id": "C:\\aspnetcore\\ContactsManagerSolution\\ContactsManager.UI\\wwwroot\\errorimage.jpg",
+      "PackagePath": "staticwebassets\\errorimage.jpg"
+    },
+    {
+      "Id": "C:\\aspnetcore\\ContactsManagerSolution\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ContactsManager.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ContactsManager.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ContactsManager.UI.props",
+      "PackagePath": "build\\ContactsManager.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ContactsManager.UI.props",
+      "PackagePath": "buildMultiTargeting\\ContactsManager.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ContactsManager.UI.props",
+      "PackagePath": "buildTransitive\\ContactsManager.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
