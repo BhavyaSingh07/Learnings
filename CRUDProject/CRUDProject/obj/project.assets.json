@@ -1823,6 +1823,16 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exceptions.dll": {}
+        }
+      },
       "Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1868,6 +1878,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CsvHelper": "33.0.1",
+          "Exceptions": "1.0.0",
           "RepositoryContracts": "1.0.0",
           "ServiceContracts": "1.0.0"
         },
@@ -5228,6 +5239,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../Exceptions/Exceptions.csproj",
+      "msbuildProject": "../Exceptions/Exceptions.csproj"
+    },
     "Repositories/1.0.0": {
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
@@ -5253,6 +5269,7 @@
     "net8.0": [
       "Aspire.Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Entities >= 1.0.0",
+      "Exceptions >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Repositories >= 1.0.0",
@@ -5297,6 +5314,9 @@
           "projectReferences": {
             "C:\\aspnetcore\\CRUDProject\\Entities\\Entities.csproj": {
               "projectPath": "C:\\aspnetcore\\CRUDProject\\Entities\\Entities.csproj"
+            },
+            "C:\\aspnetcore\\CRUDProject\\Exceptions\\Exceptions.csproj": {
+              "projectPath": "C:\\aspnetcore\\CRUDProject\\Exceptions\\Exceptions.csproj"
             },
             "C:\\aspnetcore\\CRUDProject\\Repositories\\Repositories.csproj": {
               "projectPath": "C:\\aspnetcore\\CRUDProject\\Repositories\\Repositories.csproj"

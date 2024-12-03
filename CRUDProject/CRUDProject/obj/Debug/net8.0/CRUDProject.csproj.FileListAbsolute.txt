@@ -196,3 +196,5 @@ C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\RepositoryContracts.dll
 C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\RepositoryContracts.pdb
 C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Repositories.dll
 C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Repositories.pdb
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Exceptions.dll
+C:\aspnetcore\CRUDProject\CRUDProject\bin\Debug\net8.0\Exceptions.pdb

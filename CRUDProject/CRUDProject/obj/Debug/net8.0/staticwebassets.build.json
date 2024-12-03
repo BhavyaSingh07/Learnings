@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m9p63MdRup7yh4p96afGQ9D/6Bpo+dlV8jM/u7t4sPY=",
+  "Hash": "hmYZcR6syEVodSgUrrXAQ1jTT3CNw9n3HNOSItR5za4=",
   "Source": "CRUDProject",
   "BasePath": "_content/CRUDProject",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\errorimage.jpg",
+      "SourceId": "CRUDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\",
+      "BasePath": "_content/CRUDProject",
+      "RelativePath": "errorimage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b357341fl3",
+      "Integrity": "eaft+KFcogakjs3l+yz3AZYlWMpr2vLDiYOFuOUQCAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\errorimage.jpg"
+    },
     {
       "Identity": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "SourceId": "CRUDProject",
@@ -60,6 +81,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "errorimage.b357341fl3.jpg",
+      "AssetFile": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\errorimage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaft+KFcogakjs3l+yz3AZYlWMpr2vLDiYOFuOUQCAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 03:47:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b357341fl3"
+        },
+        {
+          "Name": "label",
+          "Value": "errorimage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaft+KFcogakjs3l+yz3AZYlWMpr2vLDiYOFuOUQCAo="
+        }
+      ]
+    },
+    {
+      "Route": "errorimage.jpg",
+      "AssetFile": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\errorimage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eaft+KFcogakjs3l+yz3AZYlWMpr2vLDiYOFuOUQCAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 03:47:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eaft+KFcogakjs3l+yz3AZYlWMpr2vLDiYOFuOUQCAo="
+        }
+      ]
+    },
     {
       "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
       "AssetFile": "C:\\aspnetcore\\CRUDProject\\CRUDProject\\wwwroot\\Rotativa\\wkhtmltopdf.exe",

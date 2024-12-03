@@ -430,6 +430,8 @@ namespace CRUDTests
 
         //First, add a new person and try to update the person name and email
         [Fact]
+        //[Theory]
+        //[InlineData(null)]
         public async Task UpdatePerson_PersonFullDetailsUpdation()
         {
             //Arrange
