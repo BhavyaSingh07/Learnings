@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Cities": {
+    "/api/v1/Cities": {
       "get": {
         "tags": [
           "Cities"
@@ -59,7 +59,7 @@
         }
       }
     },
-    "/api/Cities/{id}": {
+    "/api/v1/Cities/{id}": {
       "get": {
         "tags": [
           "Cities"

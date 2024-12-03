@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{33CE4FC8-421A-46E4-BC54-DDBE60E69128}|CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj|solutionrelative:citiesmanager.webapi\\controllers\\v1\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33CE4FC8-421A-46E4-BC54-DDBE60E69128}|CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj|c:\\aspnetcore\\citiesmanagersolution\\citiesmanager.webapi\\controllers\\v2\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CE4FC8-421A-46E4-BC54-DDBE60E69128}|CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj|solutionrelative:citiesmanager.webapi\\controllers\\v2\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CE4FC8-421A-46E4-BC54-DDBE60E69128}|CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj|c:\\aspnetcore\\citiesmanagersolution\\citiesmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CE4FC8-421A-46E4-BC54-DDBE60E69128}|CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj|solutionrelative:citiesmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Controllers\\v2\\CitiesController.cs",
+              "RelativeDocumentMoniker": "CitiesManager.WebAPI\\Controllers\\v2\\CitiesController.cs",
+              "ToolTip": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Controllers\\v2\\CitiesController.cs",
+              "RelativeToolTip": "CitiesManager.WebAPI\\Controllers\\v2\\CitiesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:41:14.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "CitiesManager.WebAPI\\Controllers\\v1\\CitiesController.cs",
               "ToolTip": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Controllers\\v1\\CitiesController.cs",
               "RelativeToolTip": "CitiesManager.WebAPI\\Controllers\\v1\\CitiesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T08:19:42.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CitiesManager.WebAPI\\DatabaseContext\\ApplicationDbContext.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "CitiesManager.WebAPI\\DatabaseContext\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:04:14.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T08:04:14.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "City.cs",
               "DocumentMoniker": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Models\\City.cs",
               "RelativeDocumentMoniker": "CitiesManager.WebAPI\\Models\\City.cs",
@@ -68,18 +84,17 @@
               "RelativeToolTip": "CitiesManager.WebAPI\\Models\\City.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:02:54.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T08:02:54.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "CitiesManager.WebAPI\\Program.cs",
               "ToolTip": "C:\\aspnetcore\\CitiesManagerSolution\\CitiesManager.WebAPI\\Program.cs",
               "RelativeToolTip": "CitiesManager.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T07:40:58.457Z",
               "EditorCaption": ""

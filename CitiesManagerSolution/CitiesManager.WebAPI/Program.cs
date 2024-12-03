@@ -38,6 +38,18 @@ builder.Services.AddSwaggerGen(options =>
     
 }); //generates OpenApi specification
 
+builder.Services.AddApiVersioning(op =>
+{
+    op.AssumeDefaultVersionWhenUnspecified = true;
+    op.DefaultApiVersion = ApiVersion.Default;
+    op.ReportApiVersions = true;
+}).AddApiExplorer(op =>
+{
+    op.GroupNameFormat = "'v'V";
+    op.SubstituteApiVersionInUrl = true;
+});
+
+
 
 var app = builder.Build();
 

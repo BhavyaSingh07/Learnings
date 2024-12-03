@@ -11,9 +11,10 @@ using Asp.Versioning;
 
 namespace CitiesManager.WebAPI.Controllers.v1
 {
-    [Route("api/[controller]")]
-    //[ApiVersion("1.0")]
+    
     [ApiController]
+    [ApiVersion(1)]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class CitiesController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
