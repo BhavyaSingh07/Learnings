@@ -49,6 +49,17 @@ builder.Services.AddApiVersioning(op =>
     op.SubstituteApiVersionInUrl = true;
 });
 
+builder.Services.AddCors(t =>
+{
+    t.AddDefaultPolicy(b =>
+    {
+        b.WithOrigins(builder.Configuration.GetSection("AllowedOrigins").Get<string[]>());
+        b.WithHeaders("Authorization", "origin", "accept", "content-type")
+        .WithMethods("GET", "POST", "PUT", "DELETE");
+    });
+});
+
+
 
 
 var app = builder.Build();
@@ -60,6 +71,8 @@ app.UseHttpsRedirection();
 app.UseSwagger(); //create endpoints for swagger.json
 app.UseSwaggerUI(); //create swagger ui for testing endpoints
 
+app.UseRouting();
+app.UseCors();
 
 app.UseAuthorization();
 app.MapControllers();
