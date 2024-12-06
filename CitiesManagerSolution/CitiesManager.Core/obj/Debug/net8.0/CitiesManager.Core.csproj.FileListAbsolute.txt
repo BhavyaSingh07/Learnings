@@ -1,0 +1,13 @@
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\bin\Debug\net8.0\CitiesManager.Core.deps.json
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\bin\Debug\net8.0\CitiesManager.Core.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\bin\Debug\net8.0\CitiesManager.Core.pdb
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.AssemblyInfoInputs.cache
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.AssemblyInfo.cs
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.csproj.CoreCompileInputs.cache
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.sourcelink.json
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\refint\CitiesManager.Core.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.pdb
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\ref\CitiesManager.Core.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.Core\obj\Debug\net8.0\CitiesManager.Core.csproj.AssemblyReference.cache

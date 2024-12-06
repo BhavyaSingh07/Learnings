@@ -287,7 +287,6 @@ C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Micros
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\obj\Debug\net8.0\CitiesManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\api.xml
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Asp.Versioning.Http.dll
@@ -299,3 +298,12 @@ C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Client
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\ClientApp\CitiesAngularApp\tsconfig.app.json
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\ClientApp\CitiesAngularApp\tsconfig.json
 C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\ClientApp\CitiesAngularApp\tsconfig.spec.json
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\CitiesManager.Core.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\CitiesManager.Infrastructure.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\CitiesManager.Core.pdb
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\CitiesManager.Infrastructure.pdb
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\obj\Debug\net8.0\CitiesManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\aspnetcore\CitiesManagerSolution\CitiesManager.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

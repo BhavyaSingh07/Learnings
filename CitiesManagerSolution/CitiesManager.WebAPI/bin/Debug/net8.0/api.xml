@@ -4,6 +4,11 @@
         <name>CitiesManager.WebAPI</name>
     </assembly>
     <members>
+        <member name="T:CitiesManager.WebAPI.Controllers.v1.AccountController">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:CitiesManager.WebAPI.Controllers.v1.CitiesController.GetCities">
             <summary>
             To get list of cities, including city name and city id
@@ -15,30 +20,6 @@
             To get list of cities, including city name and city id
             </summary>
             <returns>Returns the list of cities</returns>
-        </member>
-        <member name="T:CitiesManager.WebAPI.Migrations.Initial">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="T:CitiesManager.WebAPI.Migrations.CityNameRequired">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.CityNameRequired.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.CityNameRequired.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:CitiesManager.WebAPI.Migrations.CityNameRequired.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
         </member>
     </members>
 </doc>

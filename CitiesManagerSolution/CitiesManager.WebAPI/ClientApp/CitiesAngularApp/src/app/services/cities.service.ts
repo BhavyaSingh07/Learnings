@@ -23,15 +23,15 @@ export class CitiesService {
   public getCities(): Observable<City[]> {
     //return this.cities;
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization", "Bearer mytoken");
-    return this.httpClient.get<City[]>(`${API_BASE_URL}v1/Cities`, { headers: headers });
+    headers = headers.append("Authorization", `Bearer ${localStorage['token']}`);
+    return this.httpClient.get<City[]>(`${API_BASE_URL}v1/Cities`, { headers: headers })
     //return this.httpClient.get<City[]>("https://localhost:7158/api/v1/Cities", {headers:headers});
     //Observable<City[]>
   }
 
   public postCity(city: City): Observable<City> {
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization", "Bearer mytoken");
+    headers = headers.append("Authorization", `Bearer ${localStorage['token']}`);
     return this.httpClient.post<City>(`${API_BASE_URL}v1/Cities`, city, { headers: headers })
     //return this.httpClient.get<City>("https://localhost:7158/api/v1/Cities", { headers: headers });
     //Observable<City[]>
@@ -39,14 +39,14 @@ export class CitiesService {
 
   public putCity(city: City): Observable<string> {
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization", "Bearer mytoken");
+    headers = headers.append("Authorization", `Bearer ${localStorage['token']}`);
 
     return this.httpClient.put<string>(`${API_BASE_URL}v1/Cities/${city.cityID}`, city, { headers: headers })
   }
 
   public deleteCity(cityID: string | null): Observable<string> {
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization", "Bearer mytoken");
+    headers = headers.append("Authorization", `Bearer ${localStorage['token']}`);
 
     return this.httpClient.delete<string>(`${API_BASE_URL}v1/cities/${cityID}`, { headers: headers })
   }
