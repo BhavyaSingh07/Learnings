@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\aspnetcore\\azure-app-Bhavya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26A81A3D-02C2-4246-B689-176B74439F4A}|azure-app-Bhavya\\azure-app-Bhavya.csproj|c:\\aspnetcore\\azure-app-bhavya\\azure-app-bhavya\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A81A3D-02C2-4246-B689-176B74439F4A}|azure-app-Bhavya\\azure-app-Bhavya.csproj|solutionrelative:azure-app-bhavya\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\aspnetcore\\azure-app-Bhavya\\azure-app-Bhavya\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "azure-app-Bhavya\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\aspnetcore\\azure-app-Bhavya\\azure-app-Bhavya\\Pages\\Index.cshtml",
+              "RelativeToolTip": "azure-app-Bhavya\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T07:38:29.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\azure-app-Bhavya.exe
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\azure-app-Bhavya.dll
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\azure-app-Bhavya.deps.json
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\azure-app-Bhavya.runtimeconfig.json
+C:\aspnetcore\azure-app-Bhavya\azure-app-Bhavya\obj\Release\net8.0\PubTmp\Out\azure-app-Bhavya.pdb
